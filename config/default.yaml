@@ -1,0 +1,21 @@
+# Navigator CLI Configuration
+# Copy this file to ~/.navigatorctl.yaml or use --config flag
+
+# API Configuration
+api:
+  # Base URL for the Navigator API
+  url: "https://api.navigator.example.com"
+  
+  # API Key for authentication
+  # Can also be set via NAVIGATOR_API_KEY environment variable
+  key: "your-api-key-here"
+
+# Default team ID for operations
+# Can be overridden with --team-id flag
+team:
+  id: "team_default"
+
+# Output configuration
+output:
+  # Format for command output (table or json)
+  format: "table"
