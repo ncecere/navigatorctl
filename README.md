@@ -25,10 +25,12 @@ Manual installation:
 ```bash
 # For Intel Macs (x86_64)
 curl -L https://github.com/ncecere/navigatorctl/releases/latest/download/navigatorctl_Darwin_x86_64.tar.gz | tar xz
+chmod +x navigatorctl
 sudo mv navigatorctl /usr/local/bin/
 
 # For Apple Silicon Macs (arm64)
 curl -L https://github.com/ncecere/navigatorctl/releases/latest/download/navigatorctl_Darwin_arm64.tar.gz | tar xz
+chmod +x navigatorctl
 sudo mv navigatorctl /usr/local/bin/
 ```
 
@@ -38,10 +40,12 @@ Using script:
 ```bash
 # For x86_64
 curl -L https://github.com/ncecere/navigatorctl/releases/latest/download/navigatorctl_Linux_x86_64.tar.gz | tar xz
+chmod +x navigatorctl
 sudo mv navigatorctl /usr/local/bin/
 
 # For arm64
 curl -L https://github.com/ncecere/navigatorctl/releases/latest/download/navigatorctl_Linux_arm64.tar.gz | tar xz
+chmod +x navigatorctl
 sudo mv navigatorctl /usr/local/bin/
 ```
 
