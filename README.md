@@ -4,8 +4,62 @@ A command-line interface for managing teams, users, and API keys.
 
 ## Installation
 
+### Using Go
+
+If you have Go installed:
 ```bash
 go install github.com/ncecere/navigatorctl@latest
+```
+
+### Pre-built Binaries
+
+#### macOS
+
+Using Homebrew:
+```bash
+# Coming soon...
+# brew install ncecere/tap/navigatorctl
+```
+
+Manual installation:
+```bash
+# For Intel Macs (x86_64)
+curl -L https://github.com/ncecere/navigatorctl/releases/latest/download/navigatorctl_Darwin_x86_64.tar.gz | tar xz
+sudo mv navigatorctl /usr/local/bin/
+
+# For Apple Silicon Macs (arm64)
+curl -L https://github.com/ncecere/navigatorctl/releases/latest/download/navigatorctl_Darwin_arm64.tar.gz | tar xz
+sudo mv navigatorctl /usr/local/bin/
+```
+
+#### Linux
+
+Using script:
+```bash
+# For x86_64
+curl -L https://github.com/ncecere/navigatorctl/releases/latest/download/navigatorctl_Linux_x86_64.tar.gz | tar xz
+sudo mv navigatorctl /usr/local/bin/
+
+# For arm64
+curl -L https://github.com/ncecere/navigatorctl/releases/latest/download/navigatorctl_Linux_arm64.tar.gz | tar xz
+sudo mv navigatorctl /usr/local/bin/
+```
+
+#### Windows
+
+1. Download the latest release from [GitHub Releases](https://github.com/ncecere/navigatorctl/releases/latest)
+2. Extract the ZIP file
+3. Add the extracted directory to your PATH environment variable
+4. Open a new PowerShell window and verify the installation:
+```powershell
+navigatorctl --version
+```
+
+### Verifying Installation
+
+After installation, verify it works:
+```bash
+navigatorctl --version
 ```
 
 ## Configuration
