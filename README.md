@@ -1,5 +1,7 @@
 # navigatorctl
 
+**navigator cuddle**
+
 A command-line interface for managing teams, users, and API keys.
 
 ## Installation
