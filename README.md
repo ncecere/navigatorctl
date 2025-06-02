@@ -153,6 +153,18 @@ navigatorctl user teams --user-id user123
 navigatorctl user keys --user-id user123
 ```
 
+### Key Commands
+
+#### List Keys
+```bash
+navigatorctl key list --api-url https://ai.bitop.dev --api-key sk-6425
+```
+
+#### Key Information
+```bash
+navigatorctl key info --key <key_string> --api-url https://ai.bitop.dev --api-key sk-6425
+```
+
 ### Output Formats
 
 All commands support both table and JSON output:
