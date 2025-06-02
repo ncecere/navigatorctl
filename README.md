@@ -159,11 +159,35 @@ navigatorctl user keys --user-id user123
 ```bash
 navigatorctl key list --api-url https://ai.bitop.dev --api-key sk-6425
 ```
+Lists all API keys in a table (KEY NAME, ALIAS, TEAM, SPEND, MODELS, CREATED).
 
 #### Key Information
 ```bash
 navigatorctl key info --key <key_string> --api-url https://ai.bitop.dev --api-key sk-6425
 ```
+Shows detailed info for a specific key.
+
+### Model Commands
+
+#### List Models
+```bash
+navigatorctl model list --api-url https://ai.bitop.dev --api-key sk-6425
+```
+Lists all available models (ID, OWNER, CREATED).
+
+#### Model Information
+```bash
+navigatorctl model info --api-url https://ai.bitop.dev --api-key sk-6425
+navigatorctl model info --model gpt-4.1 --api-url https://ai.bitop.dev --api-key sk-6425
+```
+Shows detailed info for all models, or a specific model with `--model`.
+
+#### Model Health
+```bash
+navigatorctl model health --model gpt-4.1 --api-url https://ai.bitop.dev --api-key sk-6425
+```
+Shows health and endpoint status for a specific model.
+
 
 ### Output Formats
 
